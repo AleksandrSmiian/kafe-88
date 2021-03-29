@@ -1,0 +1,105 @@
+.header{
+ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.header__menu{
+    position: absolute;
+   z-index: 1;
+    top: 1rem;
+    width: 80%;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+                
+        cursor: pointer;
+        color: $ocean;
+    }
+   
+}
+
+.header__logo{
+    display: flex; 
+ 
+    position: relative;
+    z-index: 1;
+    width: 20%;
+    font-family: "Montserrat Alternates";
+    font-size: 3.9rem;
+    line-height: 4.8rem;
+    color: $ocean;
+    cursor: pointer;
+
+   p{
+       margin: 0 .5rem;
+       
+       
+   }
+
+
+    .logo__number{
+  
+        width: 5rem;
+        height: 5rem;
+        text-align: center;
+        border: 1px solid;
+        border-radius: 50%;
+    }
+    a{
+        text-decoration: none;
+    
+    
+      
+    }
+}
+
+
+
+.nav{
+    display: flex;
+    width: 80%;
+    align-items:flex-start;
+    
+    top: 5rem;
+    z-index: 100;
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 2.5rem;
+        align-items:baseline;
+        .nav__main{
+            font-size: 3.8rem;
+        }
+        li{
+        
+            
+            font-weight: 600;
+    
+           
+    
+            
+        }
+    }
+    }
+    
+
+.header__line{
+   
+    z-index: 1;
+    width: 80%;
+    top: 9rem;
+    margin-left: 1rem;
+    border-top: 1px solid #41FFFF;
+    position: absolute;
+}

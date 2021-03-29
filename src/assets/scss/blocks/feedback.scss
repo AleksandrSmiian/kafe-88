@@ -1,0 +1,129 @@
+.feedback{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: $seaBreeze;
+
+}
+.feedback__img{
+    position: absolute;
+    left: 0;
+}
+
+.feedback__content{
+    display: flex;
+
+    align-items: center;
+}
+.feedback__text{
+    
+    margin: 8.8rem .7rem 2rem .7rem;
+    height: 11rem;
+    position: relative;
+    font-family: "Montserrat Alternates";
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 3rem;
+    color: #000000;
+    text-align: center;
+   span{
+       padding: 0 3rem;
+   }
+ 
+}
+.feedback__text:after,
+.feedback__text:before {
+    content: "";
+    width: 12.5rem;
+    height: .2rem;
+    background-color: #000000;
+    display: inline-block;
+    vertical-align: super;
+    border-radius: 5rem;
+}
+
+
+.circle{
+    position: relative;
+    top: -.7rem;
+    width: 7.1px;
+    height: 7.1px;
+    background-color: #000000;
+    border-radius: 50%;
+
+    
+}
+
+
+.feedback__inform{
+    width: 80%;
+    position: relative;
+    margin-top: -4rem;
+    margin-bottom: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+  
+    justify-content: center;
+
+    font-family: "Montserrat Alternates";
+   
+}
+
+.left__input{
+    width: 50%;
+}
+.contact{
+    width: 100%;
+    padding-bottom: 5rem;
+    display: flex;
+    align-items: center;
+  
+    input{
+      
+        height: 6.1rem;
+        text-align: center;
+        border: .5rem double $ocean;
+        border-radius: 5rem 0rem 5rem 0rem;
+    }
+
+    .input{
+        width: 30rem;
+        margin-right: 2rem;
+        margin-top: 2rem;
+
+        &--big{
+            width: 50rem;
+        }
+
+        &--small{
+            width: 20rem;
+        }
+    }
+
+    .input_inform, .input_date{
+        display: flex;
+    }
+
+    textarea{
+        display: flex;
+        width: 50%;
+        max-width: 58rem;
+        height: 16.6rem;
+
+        padding-top: 4rem;
+        padding-left: 3rem;
+        
+
+
+        border: .5rem double $ocean;
+        border-radius: 5rem 0rem 5rem 0rem;
+
+    }
+}
+
+.btn{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

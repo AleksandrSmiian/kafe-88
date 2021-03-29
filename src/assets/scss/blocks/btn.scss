@@ -1,0 +1,11 @@
+.btn{
+    width: 28rem;
+    height: 8.1rem;
+
+   
+    color: white;
+    background-image: url("/assets/images/btn__bg.png");
+
+    border: 1rem double $ocean;
+    border-radius: 5rem 0rem 5rem 0rem;
+}

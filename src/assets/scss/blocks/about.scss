@@ -1,0 +1,71 @@
+.about{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    background-color: $seaBreeze;
+}
+
+
+
+.container__about{
+    display: flex;
+    justify-content: center;
+    width: 118rem;
+    height: 45.6rem;
+
+    margin-bottom: 12.1rem;
+
+    background: white;
+
+    border: 1rem double $ocean;
+    border-radius: 5rem 0rem 5rem 0rem;
+    p{
+        display: flex;
+        text-align: center;
+        margin: 4rem 8rem;
+        font-size: 2.5rem;
+        font-weight: 500;
+        color: black;
+    }
+}
+
+
+.services{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.services__content{
+    width: 33.33333%;
+    text-align: center;
+ 
+    margin-bottom: 18.4rem;
+    margin-top: 12.5rem;
+}
+
+.services__text{
+    
+    color: black;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 4.8rem;
+}
+
+.google__map{
+    display: flex;
+    justify-content: center;
+    width: 109.5rem;
+    height: 74.1rem;
+    margin-bottom: 15rem;
+}
+
+.btn{
+
+    &--about{
+        position: relative;
+        z-index: 3;
+        margin-bottom: 10.7rem;
+    }
+}

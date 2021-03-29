@@ -1,0 +1,95 @@
+.main{
+    width: 100%;
+ 
+  
+    text-align: center;
+
+    position: relative;
+    top:-21rem;
+     margin-bottom: -21rem;
+   
+    
+}
+
+.container{
+    height: 93.1rem;
+    overflow: hidden;
+    background-size: cover;
+    background-image: url("/assets/images/main_bg.png ");
+    img{
+        position: relative;
+        top: 37rem;
+        width: 118rem;
+        height: 43rem;
+        
+        
+       
+    }
+}
+.delivery__text{
+
+    width: 80rem;
+    height: 13rem;
+ 
+    margin: auto;
+    position: relative;
+    top: 10rem;
+    left: 1rem;
+    padding: 2rem 3rem;
+   
+    line-height: 7.3rem;
+    font-weight: 500;
+    font-size: 6.4rem;
+
+    color: $ocean;
+    font-family: "Montserrat Alternates", sans-serif;
+
+    cursor: pointer;
+  
+    
+    
+    border: 1rem double $ocean;
+    border-radius: 5rem 0rem 5rem 0rem;
+    
+}
+
+
+.ball{
+    
+    top: 32rem;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    width: 17.5rem;
+    height: 17.5rem;
+    border-radius: 50%;
+    background-color: $seaBreeze;
+  
+    
+    i {
+      position: relative;
+      top: 1rem;
+      left: 1rem;
+        width: 3rem;
+        height: 3rem;
+
+        cursor: pointer;
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+
+        transform: rotate(45deg);
+    }
+    .arrow{
+        position: relative;
+        top: 1rem;
+        left: -1.5rem;
+        width: 2rem;
+        height: 2rem;
+       
+    }
+
+   
+}
